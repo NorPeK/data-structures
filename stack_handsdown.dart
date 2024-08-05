@@ -4,6 +4,8 @@ stores objects into a sort of "vertical tower".
 push() to add to the top.
 pop() to remove from the top.
 */
+// Stacks are useful for function callbacks and recursions
+// Stacks are useful for paranthesis balancing
 
 import 'stack_example.dart';
 
