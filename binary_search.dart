@@ -1,7 +1,7 @@
 // First, we must sort the elements.
 // it is efficent with very very large datasets.
 // it has a complexity time of O(log n)
-
+// half of the array is eliminated during each step.
 void main() {
   int target = 55;
   List<int> list = [];
@@ -14,7 +14,7 @@ void main() {
   if (index == -1) {
     print("value not found");
   } else {
-    print("target found $index");
+    print("target found at index $index");
   }
 }
 
