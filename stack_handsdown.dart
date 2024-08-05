@@ -28,7 +28,7 @@ void main() {
 
   String myFavoriteGame = stack.pop();
 
-  print(stack.items);
+  print(stack.items); //prints stack objects.
   print(myFavoriteGame); //FFVII
 
   print(stack.top()); // check the top most element // DOOM
