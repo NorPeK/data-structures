@@ -20,6 +20,8 @@ void main() {
   print(result2);
 }
 
+// Lists are reference type. and not primitive like integer value types.
+// reference means its value can change when passed even if it is void.
 void bubbleSort(List<int> list) {
   for (int i = 0; i < list.length - 1; i++) {
     for (int j = 0; j < list.length - i - 1; j++) {
