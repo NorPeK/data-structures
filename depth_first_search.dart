@@ -1,3 +1,8 @@
+//DFS is a search algorithm for traversing a tree or graph data structure
+// 1. Pick a route
+// 2. Keep going until you reach a dead end or a previously visited node
+// 3. Backtract to last node that has unvisited adjacent neighbors
+
 void main() {
   // Create a sample graph represented as an adjacency list
   // The graph is a Map where each key is a node (String),
